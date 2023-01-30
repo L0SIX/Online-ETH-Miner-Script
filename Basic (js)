@@ -1,0 +1,22 @@
+setTimeout(function() {
+console.log("Loading Phoenix miner...");
+setTimeout(function() {
+  console.log("Success!");
+  console.log("Loading Ethereum API and wallets...");
+  setTimeout(function() {
+    console.log("Success!");
+    // next function here
+  }, Math.random() * (1000 - 100) + 100);
+}, Math.random() * (1000 - 100) + 100);
+}, 500);
+setTimeout(function() {
+setInterval(function() {
+ var randomCharacters = "";
+ for (var i = 0; i < 30; i++) {
+   randomCharacters += String.fromCharCode(Math.floor(Math.random() * 26) + 97);
+ }
+ console.log(randomCharacters);
+ console.log("0.0 ETH detected");
+ console.trace();
+}, Math.random() * (100 - 100) + 50);
+}, 2500);
