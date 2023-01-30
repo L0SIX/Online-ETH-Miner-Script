@@ -1,0 +1,5 @@
+-This online Ethereum miner script allows users to mine Ethereum directly from their web browser. 
+-The script is written in JavaScript and runs on the web3.js library, making it easy to integrate into any website. 
+-The script utilizes the user's device's processing power to mine Ethereum and the rewards are automatically sent to a specified wallet address. 
+The script is open-source and available on GitHub, allowing developers to customize and improve upon the code as needed. 
+-This script provides a simple, hassle-free way for individuals to mine Ethereum and contribute to the Ethereum network.
